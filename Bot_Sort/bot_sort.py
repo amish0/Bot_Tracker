@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 from collections import deque
 
-from . import matching
-from .gmc import GMC
-from .basetrack import BaseTrack, TrackState
-from .kalman_filter import KalmanFilter
+from Bot_Sort import matching
+from Bot_Sort.gmc import GMC
+from Bot_Sort.basetrack import BaseTrack, TrackState
+from Bot_Sort.kalman_filter import KalmanFilter
 
 # from fast_reid.fast_reid_interfece import FastReIDInterface
 
